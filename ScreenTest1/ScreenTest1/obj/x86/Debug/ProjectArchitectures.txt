@@ -1,0 +1,2 @@
+C:\Users\nic_l\source\repos\ScreenTest1\ClassLibrary1\ClassLibrary1.csproj;x86
+C:\Users\nic_l\source\repos\ScreenTest1\ScreenTest1\ScreenTest1.csproj;x86

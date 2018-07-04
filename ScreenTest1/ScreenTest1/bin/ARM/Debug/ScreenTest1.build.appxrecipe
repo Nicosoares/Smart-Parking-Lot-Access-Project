@@ -10,22 +10,22 @@
     <PackageArchitecture>arm</PackageArchitecture>
     <PackageIdentityName>03dd6906-e17f-4229-9c90-94e5d84d0f8a</PackageIdentityName>
     <PackageIdentityPublisher>CN=nic_l</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\nic_l\source\repos\ScreenTest1\ScreenTest1\obj\ARM\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>F:\Repositories\GitHub\Smart-Parking-Lot-Access-Project\ScreenTest1\ScreenTest1\obj\ARM\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\nic_l\source\repos\ScreenTest1\ScreenTest1\bin\ARM\Debug\AppX</LayoutDir>
+    <LayoutDir>F:\Repositories\GitHub\Smart-Parking-Lot-Access-Project\ScreenTest1\ScreenTest1\bin\ARM\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\nic_l\source\repos\ScreenTest1\ScreenTest1\bin\ARM\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="F:\Repositories\GitHub\Smart-Parking-Lot-Access-Project\ScreenTest1\ScreenTest1\bin\ARM\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\nic_l\source\repos\ScreenTest1\ScreenTest1\bin\ARM\Debug\ScreenTest1.exe">
+    <AppxPackagedFile Include="F:\Repositories\GitHub\Smart-Parking-Lot-Access-Project\ScreenTest1\ScreenTest1\bin\ARM\Debug\ScreenTest1.exe">
       <PackagePath>entrypoint\ScreenTest1.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nic_l\.nuget\packages\microsoft.csharp\4.3.0\lib\netcore50\Microsoft.CSharp.dll">
@@ -385,56 +385,56 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.xml.xmlserializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nic_l\source\repos\ScreenTest1\ClassLibrary1\bin\ARM\Debug\ClassLibrary1.dll">
+    <AppxPackagedFile Include="F:\Repositories\GitHub\Smart-Parking-Lot-Access-Project\ScreenTest1\ClassLibrary1\bin\ARM\Debug\ClassLibrary1.dll">
       <PackagePath>ClassLibrary1.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nic_l\source\repos\ScreenTest1\ScreenTest1\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="F:\Repositories\GitHub\Smart-Parking-Lot-Access-Project\ScreenTest1\ScreenTest1\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nic_l\source\repos\ScreenTest1\ScreenTest1\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="F:\Repositories\GitHub\Smart-Parking-Lot-Access-Project\ScreenTest1\ScreenTest1\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nic_l\source\repos\ScreenTest1\ScreenTest1\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="F:\Repositories\GitHub\Smart-Parking-Lot-Access-Project\ScreenTest1\ScreenTest1\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nic_l\source\repos\ScreenTest1\ScreenTest1\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="F:\Repositories\GitHub\Smart-Parking-Lot-Access-Project\ScreenTest1\ScreenTest1\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nic_l\source\repos\ScreenTest1\ScreenTest1\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="F:\Repositories\GitHub\Smart-Parking-Lot-Access-Project\ScreenTest1\ScreenTest1\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nic_l\source\repos\ScreenTest1\ScreenTest1\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="F:\Repositories\GitHub\Smart-Parking-Lot-Access-Project\ScreenTest1\ScreenTest1\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nic_l\source\repos\ScreenTest1\ScreenTest1\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="F:\Repositories\GitHub\Smart-Parking-Lot-Access-Project\ScreenTest1\ScreenTest1\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nic_l\source\repos\ScreenTest1\ScreenTest1\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="F:\Repositories\GitHub\Smart-Parking-Lot-Access-Project\ScreenTest1\ScreenTest1\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nic_l\source\repos\ScreenTest1\ScreenTest1\bin\ARM\Debug\ScreenTest1.xr.xml">
+    <AppxPackagedFile Include="F:\Repositories\GitHub\Smart-Parking-Lot-Access-Project\ScreenTest1\ScreenTest1\bin\ARM\Debug\ScreenTest1.xr.xml">
       <PackagePath>ScreenTest1.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nic_l\source\repos\ScreenTest1\ScreenTest1\bin\ARM\Debug\App.xbf">
+    <AppxPackagedFile Include="F:\Repositories\GitHub\Smart-Parking-Lot-Access-Project\ScreenTest1\ScreenTest1\bin\ARM\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nic_l\source\repos\ScreenTest1\ScreenTest1\bin\ARM\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="F:\Repositories\GitHub\Smart-Parking-Lot-Access-Project\ScreenTest1\ScreenTest1\bin\ARM\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nic_l\source\repos\ScreenTest1\ScreenTest1\bin\ARM\Debug\resources.pri">
+    <AppxPackagedFile Include="F:\Repositories\GitHub\Smart-Parking-Lot-Access-Project\ScreenTest1\ScreenTest1\bin\ARM\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\nic_l\source\repos\ScreenTest1\ScreenTest1\bin\ARM\Debug\Core\ScreenTest1.exe">
+    <AppxPackagedFile Include="F:\Repositories\GitHub\Smart-Parking-Lot-Access-Project\ScreenTest1\ScreenTest1\bin\ARM\Debug\Core\ScreenTest1.exe">
       <PackagePath>ScreenTest1.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

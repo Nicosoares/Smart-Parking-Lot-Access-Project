@@ -47,9 +47,7 @@ namespace ScreenTest1
 
         private async void Access_Button_Click(object sender, RoutedEventArgs e)
         {
-
-            //Access_Button.Content = new Camera().GetImageName();
-            byte[] vs = new Byte[1];
+            var answer = new FaceRecognizer().GetFaces();
             string result = new Plate().CheckPlate();
             Access_Button.Content = result;
         }

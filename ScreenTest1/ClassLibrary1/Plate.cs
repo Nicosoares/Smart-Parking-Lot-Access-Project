@@ -23,7 +23,9 @@ namespace ClassLibrary1
             recognizeTask.Wait();
             string task_result = recognizeTask.Result;
             RootObject plate = JObject.Parse(task_result).ToObject<RootObject>();
-            return plate.results[0].plate;
+            if(plate.results.Count > 0)
+                return plate.results[0].plate;
+            return "No se pudo identificar su placa";
         }
 
         public String CheckPlate(byte[] picture)

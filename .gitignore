@@ -1,0 +1,5 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/ScreenTest1/.vs/ScreenTest1/v15/Server/sqlite3/db.lock

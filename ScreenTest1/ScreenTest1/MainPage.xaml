@@ -9,7 +9,20 @@
     Background="Gray">
 
     <Grid>
-        <Button Name="Access_Button" HorizontalAlignment="Center" Height="251" Margin="0,0,0,0" VerticalAlignment="Center" Width="698" 
+        <Button Name="Access_Button" HorizontalAlignment="Center" Height="251" Margin="0,78,0,0" VerticalAlignment="Top" Width="698" 
                 Content="Entre al Parqueo" FontSize="50.00" Background="GreenYellow" Click="Access_Button_Click"></Button>
+
+
+        <TextBlock Name="Info_Textbox"
+           Text="Toque el boton verde para verificar su acceso al parqueo." 
+           IsTextSelectionEnabled="True" 
+           SelectionHighlightColor="Green" 
+           Foreground="Black" 
+           FontWeight="Light" 
+           FontFamily="Arial" 
+           FontSize="50"
+           TextWrapping="Wrap"
+           HorizontalAlignment="Center"
+           VerticalAlignment="Top" Height="265" Margin="0,471,0,0"/>
     </Grid>
 </Page>

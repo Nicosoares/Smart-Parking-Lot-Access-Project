@@ -31,13 +31,13 @@
     <AppXManifest Include="F:\Repositories\GitHub\Smart-Parking-Lot-Access-Project\ScreenTest1\ScreenTest1\bin\ARM\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-07-19T00:26:48.281</Modified>
+      <Modified>2018-07-23T17:25:03.675</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="F:\Repositories\GitHub\Smart-Parking-Lot-Access-Project\ScreenTest1\ScreenTest1\bin\ARM\Debug\ScreenTest1.exe">
       <PackagePath>entrypoint\ScreenTest1.exe</PackagePath>
-      <Modified>2018-07-19T00:26:46.918</Modified>
+      <Modified>2018-07-23T17:25:03.074</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nic_l\.nuget\packages\microsoft.azure.management.resourcemanager.fluent\1.13.0\lib\netstandard1.4\Microsoft.Azure.Management.ResourceManager.Fluent.dll">
       <PackagePath>Microsoft.Azure.Management.ResourceManager.Fluent.dll</PackagePath>
@@ -757,7 +757,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Repositories\GitHub\Smart-Parking-Lot-Access-Project\ScreenTest1\ClassLibrary1\bin\ARM\Debug\ClassLibrary1.dll">
       <PackagePath>ClassLibrary1.dll</PackagePath>
-      <Modified>2018-07-19T00:26:37.679</Modified>
+      <Modified>2018-07-23T17:24:55.738</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Repositories\GitHub\Smart-Parking-Lot-Access-Project\ScreenTest1\ScreenTest1\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -803,11 +803,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Repositories\GitHub\Smart-Parking-Lot-Access-Project\ScreenTest1\ScreenTest1\bin\ARM\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-07-19T00:26:46.575</Modified>
+      <Modified>2018-07-23T17:25:02.810</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Repositories\GitHub\Smart-Parking-Lot-Access-Project\ScreenTest1\ScreenTest1\bin\ARM\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-07-19T00:26:46.575</Modified>
+      <Modified>2018-07-23T17:25:02.811</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -820,7 +820,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Repositories\GitHub\Smart-Parking-Lot-Access-Project\ScreenTest1\ScreenTest1\bin\ARM\Debug\Core\ScreenTest1.exe">
       <PackagePath>ScreenTest1.exe</PackagePath>
-      <Modified>2018-07-19T00:26:48.275</Modified>
+      <Modified>2018-07-23T17:25:03.671</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

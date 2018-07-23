@@ -56,6 +56,9 @@ namespace ScreenTest1
 
             if (Info_Textbox.Text == "Toque el boton verde para verificar su acceso al parqueo.")
             {
+                Access_Button.Content = "Procesando, por favor espere";
+                Access_Button.IsEnabled = false;
+                await Task.Delay(2000);
                 plateResponse = new PlateInfo().CheckPlate();
                 string plateAuthResponse = null;
 
@@ -64,17 +67,29 @@ namespace ScreenTest1
                     plateAuthResponse = api.Plate.CheckPlateAuthStatus(plateResponse).ToString();
                     if (plateAuthResponse == "True")
                     {
+                        Access_Button.IsEnabled = true;
                         Info_Textbox.Text = "Placa identificada:" + plateResponse + ". " + "Puede pasar, tenga un buen dia!";
                         needsResetting = true;
                     }
                     else
+                    {
+                        Access_Button.IsEnabled = true;
+                        Access_Button.Content = "Iniciar Reconocimiento Facial";
                         Info_Textbox.Text = "Su placa: " + plateResponse + " no posee autorizacion de acceso, por favor toque de nuevo el boton cuando este listo para iniciar el reconocimiento facial.";
+                    }
+
                 }
                 else
+                {
+                    Access_Button.IsEnabled = true;
+                    Access_Button.Content = "Iniciar Reconocimiento Facial";
                     Info_Textbox.Text = "Su placa no pudo ser identificada, por favor toque de nuevo el boton cuando este listo para iniciar el reconocimiento facial.";
+                }
+                   
             }
             else
             {
+                Access_Button.IsEnabled = false;
                 UserInfo user = await new FaceRecognizer().GetFaces();
                 if(user.PersonGuid != null && user.LargePersonGroupID != null)
                 {
@@ -88,22 +103,24 @@ namespace ScreenTest1
                     }
                     else
                     {
-                        Info_Textbox.Text = user.Name + " no esta autorizado para accessar, por favor comuniquese con HR";
+                        Info_Textbox.Text = user.Name + " no esta autorizado para accessar, por favor comuniquese con la Administracion del parqueo, para obtener autorizacion de acceso.";
                         needsResetting = true;
                     }
                 }
                 else
                 {
-                    Info_Textbox.Text = "No hemos sido capaces de identificarlo, por favor comuniquese con HR";
+                    Info_Textbox.Text = "No hemos sido capaces de identificarlo, por favor comuniquese con la Administracion para verificar su entidad manualmente, o registrarse como usuario.";
                     needsResetting = true;
                 }
             }
 
             if (needsResetting)
             {
-                await Task.Delay(20000);
+                Access_Button.Content = "Entre al Parqueo";
+                Access_Button.IsEnabled = false;
+                await Task.Delay(15000);
                 Info_Textbox.Text = "Toque el boton verde para verificar su acceso al parqueo.";
-
+                Access_Button.IsEnabled = true;
             }
         }
     }

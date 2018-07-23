@@ -38,20 +38,23 @@ namespace ClassLibrary1
             using (Stream imageFileStream = File.OpenRead(path))
             {
                 Face[] faces = await faceServiceClient.DetectAsync(imageFileStream, returnFaceId: true, returnFaceLandmarks: false);
-                var facesID = faces.Select(face => face.FaceId).ToArray();
-                LargePersonGroup[] largePersonGroups = await faceServiceClient.ListLargePersonGroupsAsync("", 1000);
-                float confidenceLevel = 0.75F;
-                foreach(var largePersonGroup in largePersonGroups)
+                if (faces.Length > 0)
                 {
-                    var result = await faceServiceClient.IdentifyAsync(facesID, null, largePersonGroup.LargePersonGroupId, confidenceLevel, 1);
-                    if (result != null)
+                    var facesID = faces.Select(face => face.FaceId).ToArray();
+                    LargePersonGroup[] largePersonGroups = await faceServiceClient.ListLargePersonGroupsAsync("", 1000);
+                    float confidenceLevel = 0.75F;
+                    foreach (var largePersonGroup in largePersonGroups)
                     {
-                        if(result.Length > 0)
+                        var result = await faceServiceClient.IdentifyAsync(facesID, null, largePersonGroup.LargePersonGroupId, confidenceLevel, 1);
+                        if (result != null)
                         {
-                            if (result[0].Candidates.Length > 0)
+                            if (result.Length > 0)
                             {
-                                user.PersonGuid = result[0].Candidates[0].PersonId;
-                                user.LargePersonGroupID = largePersonGroup.LargePersonGroupId;
+                                if (result[0].Candidates.Length > 0)
+                                {
+                                    user.PersonGuid = result[0].Candidates[0].PersonId;
+                                    user.LargePersonGroupID = largePersonGroup.LargePersonGroupId;
+                                }
                             }
                         }
                     }
